@@ -12,6 +12,7 @@ function tentukanDeretAritmatika(arr) {
       state.push(selisih);
     };
 
+    // pengecekan
     for (let i = 0, j = state.length -1; i < state.length; i++, j--) {
       Hurufpertama = state[i];
       Hurufkedua = state[j];
